@@ -93,14 +93,17 @@ def store_urls_and_embeddings_in_upstash(url, text_content, title):
 
     # Initialize the embedding model
     embedding = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+    total_chunks = len(chunks)
 
     for index, chunk in enumerate(chunks):
         text = chunk.page_content
         embedded_text = embedding.embed_query(text)
+        
         chunk_metadata = {
             'url': url,
             'title': title,
             'chunk_index': index,
+            'total_chunks': total_chunks,
             'original_text': text
         }
         vector_id = f"doc-{document_uuid}-{index}"
