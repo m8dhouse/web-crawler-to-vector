@@ -26,30 +26,30 @@ There is a startup.py file that reads the requirements.txt so that you have all 
 =====================================================
 
 DATASTAX ASTRA -> change the variable placeholders with your key/url/secret
-
-# Configuration variables
-OPENAI_API_KEY = '<YOUR KEY>'
-START_URL = '<URL TO CRAWL>'
-ASTRA_CLIENT_ID = '<CLIENT_ID>'
-ASTRA_CLIENT_SECRET = '<ASTRA_SECRET>'
-ASTRA_DB_API_ENDPOINT = '<ASTRA_ENDPOINT>'
-CHUNK_SIZE = 1000
-OVERLAP = 200
-MAX_DEPTH = 3
-KEYSPACE = 'default_keyspace'
-COLLECTION = '<COLLECTION NAMEN>'
+    
+    # Configuration variables
+    OPENAI_API_KEY = '<YOUR KEY>'
+    START_URL = '<URL TO CRAWL>'
+    ASTRA_CLIENT_ID = '<CLIENT_ID>'
+    ASTRA_CLIENT_SECRET = '<ASTRA_SECRET>'
+    ASTRA_DB_API_ENDPOINT = '<ASTRA_ENDPOINT>'
+    CHUNK_SIZE = 1000
+    OVERLAP = 200
+    MAX_DEPTH = 3
+    KEYSPACE = 'default_keyspace'
+    COLLECTION = '<COLLECTION NAMEN>'
 
 
 =====================================================
 
 UPSTASH -> change the variable placeholders with your key/url/secret
 
-# Configuration variables
-OPENAI_API_KEY = '<YOUR KEY>'
-START_URL = '<URL TO CRAWL>'
-UPSTASH_TOKEN = '<UPSTASH_TOKEN>'
-UPSTASH_API_ENDPOINT = '<UPSTASH_ENDPOINT>'
-CHUNK_SIZE = 1000
-OVERLAP = 200
-MAX_DEPTH = 3
-COLLECTION = '<COLLECTION NAME>'
+    # Configuration variables
+    OPENAI_API_KEY = '<YOUR KEY>'
+    START_URL = '<URL TO CRAWL>'
+    UPSTASH_TOKEN = '<UPSTASH_TOKEN>'
+    UPSTASH_API_ENDPOINT = '<UPSTASH_ENDPOINT>'
+    CHUNK_SIZE = 1000
+    OVERLAP = 200
+    MAX_DEPTH = 3
+    COLLECTION = '<COLLECTION NAME>'
