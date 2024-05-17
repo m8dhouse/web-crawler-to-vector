@@ -105,12 +105,15 @@ def store_urls_and_embeddings_in_astra(url, text_content, title):
 
     # Prepare documents with their embeddings and metadata
     documents = []
+
+    total_chunks = len(chunks)
     for index, chunk in enumerate(chunks):
         text = chunk.page_content
         embedded_text = embedding.embed_query(text)
         chunk_metadata = {
             'url': url,
             'title': title,
+            'total_chunks': total_chunks,
             'chunk_index': index
         }
         documents.append(Document(page_content=text, embedding=embedded_text, metadata=chunk_metadata))
