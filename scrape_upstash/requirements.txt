@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+openai
+langchain
+langchain_openai
+upstash-vector

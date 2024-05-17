@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+openai
+langchain_astradb
+langchain_openai
+langchain
