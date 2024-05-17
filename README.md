@@ -17,7 +17,7 @@ I created this as neither of these platforms have any decent tutorials/examples 
 
 Feel free to adapt to your needs.
 
-UpStash: you have a fairly small Free plan - so ideally if you want to use this you'll need to go for the paid plan.
+UpStash: has a free plan as well. Very fast ... 
 DataStax: has a larger free plan that should be ok for small websites.
 
 
