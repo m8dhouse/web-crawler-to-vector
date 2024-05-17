@@ -12,7 +12,7 @@ embeddings model text-embedding-3-small.
 
 The resulting vector data is then uploaded into UpStash or DataStax Astra.
 
-I created this as neither of these platforms have any decent tutorials/examples for processing and uploading scraped webdata.
+I created this as neither of these platforms have any decent tutorials/examples that I could find for processing and uploading scraped webdata.
 
 
 Feel free to adapt to your needs.
@@ -38,6 +38,7 @@ OVERLAP = 200
 MAX_DEPTH = 3
 KEYSPACE = 'default_keyspace'
 COLLECTION = '<COLLECTION NAMEN>'
+
 
 =====================================================
 
