@@ -101,7 +101,7 @@ def store_urls_and_embeddings_in_upstash(url, text_content, title):
             'url': url,
             'title': title,
             'chunk_index': index,
-            'original_text': text_content
+            'original_text': text
         }
         vector_id = f"doc-{document_uuid}-{index}"
         indexupstash.upsert(vectors=[(vector_id, embedded_text, chunk_metadata)])
