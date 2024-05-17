@@ -1,5 +1,6 @@
-# webcrawler-to-vector
-Python webcrawler script to upload vector data to Upstash or DataStax. Uses openAI text-embedding-3-small embedding model but can be easily adapted.
+# web crawler-to-vector
+Python web crawler script to upload vector data to Upstash or DataStax. Uses openAI text-embedding-3-small embedding model but can be easily adapted.
+Version with HuggingFace integration and model BERTje (can be easily changed) also there as example.
 
 
 #READ.ME
